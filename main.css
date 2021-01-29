@@ -13,7 +13,7 @@
 	--dbackgroundsize:				cover;
 	--dbackgroundposition:			center;
 	--dblur:						unset;
-	--dbackdrop:					rgba(186, 205, 242, 1);
+	--dbackdrop:					rgba(255,255,255, 0.3);
 
 	--vtransparencycolor:			var(--transparencycolor,			var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,			var(--dtransparencyalpha));
