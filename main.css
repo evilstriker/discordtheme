@@ -1640,7 +1640,12 @@ body,														/* body														*/
     opacity: 0;
 }
 
-.listItem-GuPuDH .da-listItem {
+[aria-label] {
+    opacity: 0;
+}
+
+[aria-label]:after {
+    content: attr(aria-label);
     opacity: 0;
 }
 
